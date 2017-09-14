@@ -1,8 +1,8 @@
 @echo off
 rem pull the Hostname from the system
-set HOSTNAME=%1
+set HOSTNAME=%COMPUTERNAME%
 rem pull the ip address from the config file
-set IP=%2
+set /p Build=<zabbix_host.txt
 rem set path to zabbix install and .conf file
 set CONF_FILE=c:\zabbix\zabbix_agentd.conf
 

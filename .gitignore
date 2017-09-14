@@ -1,0 +1,18 @@
+
+test env/.vagrant/machines/Win10/virtualbox/index_uuid
+test env/.vagrant/machines/Win10/virtualbox/action_set_name
+test env/.vagrant/machines/Win10/virtualbox/creator_uid
+test env/.vagrant/machines/Win10/virtualbox/id
+test env/.vagrant/machines/Win10/virtualbox/vagrant_cwd
+*.log
+test env/.vagrant/machines/Win10/virtualbox/synced_folders
+test env/.vagrant/machines/Win10/virtualbox/action_provision
+test env/.vagrant/machines/db/virtualbox/vagrant_cwd
+test env/.vagrant/machines/acs/virtualbox/vagrant_cwd
+test env/.vagrant/machines/acs/virtualbox/synced_folders
+test env/.vagrant/machines/acs/virtualbox/private_key
+test env/.vagrant/machines/acs/virtualbox/action_provision
+test env/.vagrant/machines/acs/virtualbox/action_set_name
+test env/.vagrant/machines/acs/virtualbox/creator_uid
+test env/.vagrant/machines/acs/virtualbox/id
+test env/.vagrant/machines/acs/virtualbox/index_uuid
