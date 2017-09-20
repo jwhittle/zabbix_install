@@ -18,7 +18,7 @@ echo firewall
 GOTO FIREWALL
 :FIREWALLDONE
 echo SERVICE
-rem if exist "C:\zabbix\bin\win32\zabbix_agentd.exe" GOTO SERVICE
+if exist "C:\zabbix\bin\win32\zabbix_agentd.exe" GOTO SERVICE
 SC QUERY "Zabbix Agent" > NUL
 IF ERRORLEVEL 1060 GOTO END
 ECHO Zabbix Agent service is up and running
